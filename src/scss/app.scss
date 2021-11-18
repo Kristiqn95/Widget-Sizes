@@ -34,5 +34,13 @@ html {
       color: orangered;
       font-weight: bold;
     }
+    
+    &.small {
+      width: map.get($widget-sizes, "small");
+    }
+    
+    &.big {
+      width: map.get($widget-sizes, "large");
+    }
   }
 }
